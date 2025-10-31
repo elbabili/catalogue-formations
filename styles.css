@@ -57,25 +57,32 @@
         border-left: 4px solid var(--accent-color);
         }
 
-        .intro h2 {
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
-        }
+        .intro {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 3rem;  /* ← Cette marge doit être là */
+    border-left: 4px solid var(--accent-color);
+    }
 
-        .intro p {
-            color: var(--text-light);
-            font-size: 1.1rem;
-        }
+    .intro h2 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+    }
 
-        .conclu .coffee-chat {
-            margin-top: 15px;
-            font-style: italic;
-            color: #667eea;
-            font-weight: 600;
-            font-size: 1.2em;
-        }
+    .intro p {
+        color: var(--text-light);
+        font-size: 1.1rem;
+    }
 
+    .intro .coffee-chat {
+        margin-top: 15px;
+        font-style: italic;
+        color: #667eea;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
         .filters {
             display: flex;
             gap: 1rem;
