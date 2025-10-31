@@ -60,14 +60,16 @@
             font-size: 1.1rem;
         }
 
-        /* Plus spécifique, donc prioritaire */
         .intro .coffee-chat {
-            margin-top: 15px;
-            font-style: italic;
-            color: var(--accent-color);
-            font-weight: 600;
-            font-size: 1.1em;
-        }
+                margin-top: 20px;
+                padding-top: 15px;
+                border-top: 2px dashed #667eea; /* Ligne en pointillés au-dessus */
+                font-style: italic;
+                color: #667eea;
+                font-weight: 700;
+                font-size: 1.2em;
+                text-align: center;
+            }
 
         .filters {
             display: flex;
