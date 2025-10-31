@@ -1,0 +1,212 @@
+[
+    {
+        "title": "Java SE - Niveau 1 : Fondamentaux et Pratique",
+        "duration": "5 jours",
+        "level": "Débutant",
+        "category": "java",
+        "public": "Développeurs débutants, reconversions professionnelles vers le développement, toute personne souhaitant apprendre Java",
+        "prerequis": "Aucun prérequis technique. Logique de base et motivation.",
+        "objectifs": "Connaître la syntaxe Java et les concepts de base. Utiliser un IDE. Créer des programmes simples. Comprendre les types de données et structures de contrôle.",
+        "modalites": "70% pratique / 30% théorie. Exercices progressifs, mini-projets, évaluation finale."
+    },
+    {
+        "title": "Algorithmique : Penser comme un Développeur",
+        "duration": "3-5 jours",
+        "level": "Débutant",
+        "category": "java",
+        "public": "Développeurs souhaitant structurer leur pensée, reconversions professionnelles",
+        "prerequis": "Bases de Java SE Niveau 1 (ou équivalent dans un autre langage)",
+        "objectifs": "Analyser un problème. Concevoir des algorithmes. Appliquer les structures de données. Résoudre des problèmes logiques.",
+        "modalites": "70% pratique / 30% théorie. Exercices algorithmiques, défis progressifs."
+    },
+    {
+        "title": "Git & GitHub : De la Console au Travail en Équipe",
+        "duration": "5 jours",
+        "level": "Débutant",
+        "category": "devops",
+        "public": "Développeurs débutants ou intermédiaires, équipes souhaitant structurer leur collaboration, chefs de projets techniques",
+        "prerequis": "Connaître les bases de la programmation",
+        "objectifs": "Utiliser Git en ligne de commande. Gérer les branches et fusions. Collaborer efficacement avec GitHub. Appliquer les workflows Git dans des projets réels.",
+        "modalites": "60% pratique / 40% théorie. Mises en situation collaboratives, projets simulés."
+    },
+    {
+        "title": "Java SE - Niveau 2 : Programmation Orientée Objet",
+        "duration": "5 jours",
+        "level": "Intermédiaire",
+        "category": "java",
+        "public": "Développeurs ayant suivi Java SE Niveau 1, développeurs connaissant les bases de Java, développeurs venant de langages procéduraux",
+        "prerequis": "Bases de Java (syntaxe, types, structures de contrôle)",
+        "objectifs": "Concevoir des classes et objets. Appliquer l'encapsulation, héritage, polymorphisme. Utiliser les collections Java. Gérer les exceptions.",
+        "modalites": "70% pratique / 30% théorie. Projets orientés objet, exercices de modélisation."
+    },
+    {
+        "title": "UML : Modéliser avant de Coder",
+        "duration": "3-4 jours",
+        "level": "Intermédiaire",
+        "category": "gestion",
+        "public": "Développeurs structurant leur conception, analystes et concepteurs d'applications, chefs de projets techniques, architectes logiciels débutants",
+        "prerequis": "Bases de programmation orientée objet",
+        "objectifs": "Créer des diagrammes UML. Modéliser des applications. Passer de la conception au code. Communiquer avec des diagrammes.",
+        "modalites": "50% pratique / 50% théorie. Exercices de modélisation, études de cas."
+    },
+    {
+        "title": "Bases de Données & SQL : De la Conception à l'Intégration",
+        "duration": "5 jours",
+        "level": "Débutant",
+        "category": "java",
+        "public": "Développeurs Java manipulant des BDD, débutants en bases de données relationnelles, développeurs applications métier",
+        "prerequis": "Bases de Java SE Niveau 2",
+        "objectifs": "Concevoir une base de données relationnelle. Écrire des requêtes SQL. Intégrer SQL dans des applications Java. Utiliser JDBC.",
+        "modalites": "60% pratique / 40% théorie. Projets d'intégration BDD, TP sur JDBC."
+    },
+    {
+        "title": "Java SE - Niveau 3 : Concepts Avancés",
+        "duration": "7 jours",
+        "level": "Avancé",
+        "category": "java",
+        "public": "Développeurs Java intermédiaires, développeurs souhaitant monter en compétences, développeurs se préparant aux frameworks Java, candidats aux certifications Java",
+        "prerequis": "Java SE Niveaux 1 & 2 ou expérience équivalente",
+        "objectifs": "Maîtriser les Streams et lambdas. Gérer le multithreading. Manipuler les fichiers et flux. Utiliser les API avancées Java.",
+        "modalites": "70% pratique / 30% théorie. Projets complexes, optimisation de code."
+    },
+    {
+        "title": "Développement Web Front-End : HTML, CSS & JavaScript",
+        "duration": "10 jours",
+        "level": "Débutant",
+        "category": "web",
+        "public": "Développeurs back-end apprenant le front-end, débutants en développement web, reconversions professionnelles, graphistes/designers",
+        "prerequis": "Aucun prérequis technique. Logique de base.",
+        "objectifs": "Créer des pages HTML structurées. Styliser avec CSS. Programmer en JavaScript. Créer des interfaces interactives.",
+        "modalites": "75% pratique / 25% théorie. Projets web complets, portfolio personnel."
+    },
+    {
+        "title": "Angular - Niveau 1 : Développer des Applications SPA",
+        "duration": "5 jours",
+        "level": "Intermédiaire",
+        "category": "web",
+        "public": "Développeurs web souhaitant apprendre Angular, développeurs front-end se spécialisant, développeurs JavaScript montant en compétences, développeurs back-end évoluant vers le full-stack",
+        "prerequis": "Bases HTML, CSS, JavaScript. TypeScript recommandé.",
+        "objectifs": "Créer des composants Angular. Gérer le routing. Consommer des API REST. Déployer une application SPA.",
+        "modalites": "70% pratique / 30% théorie. Projets SPA, intégration API."
+    },
+    {
+        "title": "Angular - Niveau 2 : Concepts Avancés et Programmation Réactive",
+        "duration": "5 jours",
+        "level": "Avancé",
+        "category": "web",
+        "public": "Développeurs Angular souhaitant approfondir, développeurs évoluant vers architecte front-end, équipes adoptant Angular en production",
+        "prerequis": "Angular Niveau 1 ou expérience Angular équivalente",
+        "objectifs": "Maîtriser RxJS et Observables. Optimiser les performances. Gérer l'état applicatif. Appliquer les patterns avancés.",
+        "modalites": "70% pratique / 30% théorie. Projets d'optimisation, architecture avancée."
+    },
+    {
+        "title": "Angular & NgRx - Niveau 3 : State Management Avancé",
+        "duration": "10 jours",
+        "level": "Expert",
+        "category": "web",
+        "public": "Développeurs Angular, architectes front-end, équipes adoptant NgRx en production",
+        "prerequis": "Angular Niveaux 1 & 2 ou expérience solide Angular",
+        "objectifs": "Implémenter NgRx Store. Gérer les effets et reducers. Architecturer des applications complexes. Débugger avec Redux DevTools.",
+        "modalites": "75% pratique / 25% théorie. Projets d'architecture complexe, refactoring."
+    },
+    {
+        "title": "Spring Framework : Les Fondamentaux",
+        "duration": "10 jours",
+        "level": "Intermédiaire",
+        "category": "frameworks",
+        "public": "Développeurs Java souhaitant apprendre Spring, étudiants et alternants en informatique (Bac+3/4/5), développeurs se reconvertissant vers Java/Spring",
+        "prerequis": "Java SE Niveaux 1, 2 & 3. Bases SQL.",
+        "objectifs": "Maîtriser l'injection de dépendances. Créer des applications Spring Boot. Utiliser Spring Data JPA. Gérer les transactions.",
+        "modalites": "70% pratique / 30% théorie. Projets d'applications métier, CRUD complet."
+    },
+    {
+        "title": "Maven & Tests : Qualité et Automatisation",
+        "duration": "10 jours",
+        "level": "Intermédiaire",
+        "category": "devops",
+        "public": "Développeurs Java/Spring souhaitant maîtriser les tests, équipes adoptant le TDD",
+        "prerequis": "Java SE & Spring Framework",
+        "objectifs": "Maîtriser Maven. Écrire des tests unitaires (JUnit). Implémenter le TDD. Automatiser les tests.",
+        "modalites": "70% pratique / 30% théorie. TDD sur projets réels, automatisation."
+    },
+    {
+        "title": "API REST avec Spring & Sécurité JWT",
+        "duration": "10 jours",
+        "level": "Avancé",
+        "category": "frameworks",
+        "public": "Développeurs back-end Spring créant des API REST, développeurs full-stack connectant Angular et Spring, architectes concevant des microservices",
+        "prerequis": "Spring Framework, bases SQL",
+        "objectifs": "Créer des API REST. Documenter avec Swagger. Sécuriser avec JWT. Gérer l'authentification et l'autorisation.",
+        "modalites": "70% pratique / 30% théorie. Projets full-stack Angular/Spring."
+    },
+    {
+        "title": "Gestion de Projet Agile avec Scrum",
+        "duration": "5 jours",
+        "level": "Tous niveaux",
+        "category": "gestion",
+        "public": "Développeurs, chefs de projets techniques évoluant vers Scrum Master, Product Owners, équipes de développement adoptant Scrum",
+        "prerequis": "Expérience en développement ou gestion de projet",
+        "objectifs": "Comprendre les valeurs Agile. Appliquer Scrum. Faciliter les cérémonies. Gérer un backlog.",
+        "modalites": "50% pratique / 50% théorie. Simulations de sprints, jeux de rôle."
+    },
+    {
+        "title": "Quality Code & DevOps : SonarQube, Jenkins et Docker",
+        "duration": "10 jours",
+        "level": "Avancé",
+        "category": "devops",
+        "public": "Développeurs souhaitant améliorer la qualité de leur code, Tech leads responsables de la qualité logicielle, DevOps Engineers mettant en place des pipelines CI/CD",
+        "prerequis": "Java & Spring, Git, bases Linux",
+        "objectifs": "Analyser la qualité du code. Mettre en place CI/CD. Containeriser avec Docker. Automatiser les déploiements.",
+        "modalites": "70% pratique / 30% théorie. Projets DevOps complets, pipelines."
+    },
+    {
+        "title": "IA Générative : Maîtrise du Prompt (Le Savoir-Faire Universel)",
+        "duration": "3-5 jours",
+        "level": "Tous niveaux",
+        "category": "ia",
+        "public": "Tout public, professionnels souhaitant gagner en productivité, personnes curieuses des outils IA. Aucune compétence technique requise",
+        "prerequis": "Aucun",
+        "objectifs": "Comprendre l'IA générative. Créer des prompts efficaces. Utiliser ChatGPT, Claude, Copilot. Automatiser des tâches.",
+        "modalites": "60% pratique / 40% théorie. Ateliers prompting, cas d'usage métier."
+    },
+    {
+        "title": "IA comme Assistant au Codage (Vitesse et Vigilance Critique)",
+        "duration": "5 jours",
+        "level": "Intermédiaire",
+        "category": "ia",
+        "public": "Développeurs souhaitant accélérer leur productivité, développeurs adoptant les outils IA (Copilot, etc.), équipes techniques intégrant l'IA dans leur workflow",
+        "prerequis": "Bases de développement (Java ou JavaScript recommandé)",
+        "objectifs": "Utiliser GitHub Copilot. Générer du code avec IA. Auditer et corriger le code généré. Intégrer l'IA dans son workflow.",
+        "modalites": "75% pratique / 25% théorie. Projets avec IA, comparaisons avant/après."
+    },
+    {
+        "title": "IA Intégrée au Produit (Intelligence Métier)",
+        "duration": "5 jours",
+        "level": "Avancé",
+        "category": "ia",
+        "public": "Développeurs Java/Spring intégrant l'IA dans leurs applications, Product Owners enrichissant leurs produits avec l'IA, architectes concevant des solutions avec IA",
+        "prerequis": "Java & Spring. Bases API REST.",
+        "objectifs": "Intégrer des API IA. Créer des fonctionnalités intelligentes. Gérer les coûts et limites. Éthique et responsabilité IA.",
+        "modalites": "70% pratique / 30% théorie. Projets d'intégration IA dans applications."
+    },
+    {
+        "title": "IA pour la Qualité et le DevOps (Fiabilité et Maintenance)",
+        "duration": "5 jours",
+        "level": "Avancé",
+        "category": "ia",
+        "public": "DevOps Engineers adoptant l'IA dans leurs workflows, développeurs responsables de la qualité du code, SRE (Site Reliability Engineers)",
+        "prerequis": "DevOps de base, CI/CD, Docker",
+        "objectifs": "Automatiser les tests avec IA. Détecter les bugs avec IA. Optimiser les pipelines. Surveiller la qualité avec IA.",
+        "modalites": "70% pratique / 30% théorie. Projets DevOps + IA, automatisation."
+    },
+    {
+        "title": "IA : Perspectives d'Avenir (Agents et Stratégie)",
+        "duration": "3 jours",
+        "level": "Tous niveaux",
+        "category": "ia",
+        "public": "Décideurs techniques (CTO, Tech Leads, Architectes), managers d'équipes de développement, responsables de la stratégie technologique",
+        "prerequis": "Culture technologique générale",
+        "objectifs": "Comprendre les agents IA. Anticiper les évolutions. Définir une stratégie IA. Évaluer les impacts organisationnels.",
+        "modalites": "50% théorie / 50% débats. Études de cas, vision stratégique."
+    }
+]
