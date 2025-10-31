@@ -49,22 +49,6 @@
             padding: 2rem;
         }
 
-       .intro {
-        background-color: var(--bg-light);
-        padding: 2rem;
-        border-radius: 12px;
-        margin-bottom: 3rem;  /* ← Cette marge doit être là */
-        border-left: 4px solid var(--accent-color);
-        }
-
-        .intro {
-    background-color: var(--bg-light);
-    padding: 2rem;
-    border-radius: 12px;
-    margin-bottom: 3rem;  /* ← Cette marge doit être là */
-    border-left: 4px solid var(--accent-color);
-    }
-
     .intro h2 {
         color: var(--primary-color);
         margin-bottom: 1rem;
