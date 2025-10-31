@@ -49,14 +49,6 @@
             padding: 2rem;
         }
 
-        .intro .coffee-chat {
-                margin-top: 15px;
-                font-style: italic;
-                color: var(--accent-color);
-                font-weight: 600;
-                font-size: 1.1em;
-            }
-
         .intro h2 {
             color: var(--primary-color);
             margin-bottom: 1rem;
@@ -66,6 +58,15 @@
         .intro p {
             color: var(--text-light);
             font-size: 1.1rem;
+        }
+
+        /* Plus spécifique, donc prioritaire */
+        .intro .coffee-chat {
+            margin-top: 15px;
+            font-style: italic;
+            color: var(--accent-color);
+            font-weight: 600;
+            font-size: 1.1em;
         }
 
         .filters {
