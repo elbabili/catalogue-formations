@@ -49,18 +49,26 @@
             padding: 2rem;
         }
 
+    .intro {
+        background-color: #f8f9fa;
+        padding: 2rem;
+        border-radius: 12px;
+        margin-bottom: 3rem;
+        border-left: 4px solid #667eea;
+    }
+
     .intro h2 {
-        color: var(--primary-color);
+        color: #2c3e50;
         margin-bottom: 1rem;
         font-size: 1.8rem;
     }
 
     .intro p {
-        color: var(--text-light);
+        color: #555;
         font-size: 1.1rem;
     }
 
-    .conclu .coffee-chat {
+    .intro .coffee-chat {
         margin-top: 15px;
         font-style: italic;
         color: #667eea;
