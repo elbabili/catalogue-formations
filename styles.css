@@ -49,6 +49,14 @@
             padding: 2rem;
         }
 
+       .intro {
+        background-color: var(--bg-light);
+        padding: 2rem;
+        border-radius: 12px;
+        margin-bottom: 3rem;  /* ← Cette marge doit être là */
+        border-left: 4px solid var(--accent-color);
+        }
+
         .intro h2 {
             color: var(--primary-color);
             margin-bottom: 1rem;
@@ -60,13 +68,12 @@
             font-size: 1.1rem;
         }
 
-        /* Plus spécifique, donc prioritaire */
-        .intro .coffee-chat {
+        .conclu .coffee-chat {
             margin-top: 15px;
             font-style: italic;
-            color: var(--accent-color);
+            color: #667eea;
             font-weight: 600;
-            font-size: 1.1em;
+            font-size: 1.2em;
         }
 
         .filters {
