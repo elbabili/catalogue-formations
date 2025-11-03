@@ -462,7 +462,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.complementary-section > p {
+.complementary-section>p {
     text-align: center;
     color: var(--text-light);
     font-size: 1.1rem;
