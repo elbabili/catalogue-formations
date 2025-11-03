@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Catalogue de formations professionnelles en développement Java, Spring, Angular, IA et DevOps">
+    <meta name="keywords" content="formation Java, formation Angular, formation Spring, formation IA, formation DevOps">
+    <title>Catalogue de Formations 2025 | Développement & IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>🎓 Catalogue de Formations 2025</h1>
+        <p>Formations professionnelles en Développement Java, Web-Angular, Uml-Scrum, Spring, DevOps & IA</p>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Bienvenue dans mon catalogue de formations</h2>
+            <p>Découvrez mes parcours de formation complets, du développement Java aux technologies IA en passant par
+                Angular, Spring et les pratiques DevOps. Des formations adaptées à tous les niveaux, issues de plus de
+                20 ans d'expérience.</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <span class="stat-number">21</span>
+                <span class="stat-label">Modules de formation</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">6</span>
+                <span class="stat-label">Domaines d'expertise</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Pratique & Projets</span>
+            </div>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterFormations('all')">All</button>
+            <button class="filter-btn" onclick="filterFormations('java')">Java SE</button>
+            <button class="filter-btn" onclick="filterFormations('web')">Web - Angular</button>
+            <button class="filter-btn" onclick="filterFormations('gestion')">Uml - Scrum</button>
+            <button class="filter-btn" onclick="filterFormations('frameworks')">Spring</button>
+            <button class="filter-btn" onclick="filterFormations('devops')">DevOps</button>
+            <button class="filter-btn" onclick="filterFormations('ia')">Intelligence Artificielle</button>
+        </div>
+
+        <div class="formations-grid" id="formationsGrid">
+            <!-- Les formations seront injectées ici par JavaScript -->
+        </div>
+
+        <div class="complementary-section">
+            <h2>🔧 Autres Domaines d'Intervention</h2>
+            <p>Au-delà de mon catalogue principal, j'interviens également sur d'autres technologies et frameworks :</p>
+
+            <div class="tech-tags">
+                <span class="tech-tag">📱 Applications mobiles Android - Flutter</span>
+                <span class="tech-tag">🟢 Node.js</span>
+                <span class="tech-tag">🔵 .NET</span>
+                <span class="tech-tag">🍃 MongoDB</span>
+            </div>
+
+            <p style="text-align: center; margin-top: 2rem; font-style: italic; color: #6b7280;">
+                💬 Formations disponibles sur demande - Contactez-moi pour un programme personnalisé
+            </p>
+        </div>
+
+        <!-- Section Info cards séparée -->
+        <section class="info-section">
+            <h2>💼 Concrètement</h2>
+
+            <div class="contact-info-grid">
+                <div class="info-card">
+                    <h4>🎯 Ce que je propose</h4>
+                    <ul>
+                        <li>✅ Parcours longs certifiants (DWWM, CDA)</li>
+                        <li>✅ Formations courtes sur-mesure (1 semaine min)</li>
+                        <li>✅ Stack technique complète JSA + DevOps</li>
+                        <li>✅ Approche inclusive et pragmatique</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h4>📊 Résultats prouvés</h4>
+                    <ul>
+                        <li>✅ Plusieurs dizaines d'apprenants formés</li>
+                        <li>✅ Expertise avec travailleurs en situation de handicap</li>
+                        <li>✅ Taux de satisfaction > 80%</li>
+                        <li>✅ Audits Qualiopi sans non-conformité</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h4>📍 Modalités d'intervention</h4>
+                    <ul>
+                        <li>✅ Présentiel (France & International)</li>
+                        <li>✅ Distanciel</li>
+                        <li>✅ Hybride</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h4>🤝 Public cible</h4>
+                    <ul>
+                        <li>✅ Organismes de formation</li>
+                        <li>✅ Entreprises (intra/inter)</li>
+                        <li>✅ Salariés & Demandeurs d'emploi</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Section Contact en dehors du container -->
+    <section class="contact-section">
+        <h2>📧 Intéressé par mes formations ?</h2>
+
+        <div class="contact-form-full">
+            <h3>📝 Demande d'information</h3>
+            <form id="formulaire-contact" class="contact-form">
+                <div class="form-row-2cols">
+                    <div class="form-group">
+                        <label for="nom">Nom complet *</label>
+                        <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="votre@email.com">
+                    </div>
+                </div>
+
+                <div class="form-row-2cols">
+                    <div class="form-group">
+                        <label for="telephone">Téléphone</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="+33 6 00 00 00 00">
+                    </div>
+                    <div class="form-group">
+                        <label for="entreprise">Entreprise</label>
+                        <input type="text" id="entreprise" name="entreprise" placeholder="Nom de votre entreprise">
+                    </div>
+                </div>
+
+                <div class="form-row-2cols">
+                    <div class="form-group">
+                        <label for="formation">Formation intéressée *</label>
+                        <select id="formation" name="formation" required>
+                            <option value="">-- Sélectionnez une formation --</option>
+                            <option value="java">Java</option>
+                            <option value="angular">Angular & Web</option>
+                            <option value="spring">Spring</option>
+                            <option value="devops">DevOps</option>
+                            <option value="ia">Intelligence Artificielle</option>
+                            <option value="autre">Autre (à préciser)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="3" required
+                            placeholder="Décrivez votre besoin en formation..."></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="conditions" name="conditions" required>
+                        <span>J'accepte que mes données soient utilisées pour répondre à ma demande *</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">Envoyer ma demande</button>
+                <p class="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 - Catalogue de Formations. Tous droits réservés.</p>
+        <p style="margin-top: 1.5rem;">
+            <a href="https://www.linkedin.com/in/melbabili31" target="_blank"
+                style="color: white; text-decoration: none; font-size: 1rem; opacity: 0.9;">
+                🔗 Retrouvez-moi sur LinkedIn
+            </a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
