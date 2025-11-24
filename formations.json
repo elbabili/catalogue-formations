@@ -166,7 +166,7 @@
         "category": "ia",
         "public": "Tout public, professionnels souhaitant gagner en productivité, personnes curieuses des outils IA. Aucune compétence technique requise",
         "prerequis": "Aucun",
-        "objectifs": "Comprendre l'IA générative. Créer des prompts efficaces. Utiliser ChatGPT, Claude, Copilot. Automatiser des tâches.",
+        "objectifs": "Comprendre l'IA générative. Maîtriser le Prompt Engineering (la syntaxe universelle). Utiliser ChatGPT, Claude, Copilot. Automatiser des tâches et gagner du temps.",
         "modalites": "60% pratique / 40% théorie. Ateliers prompting, cas d'usage métier."
     },
     {
@@ -176,8 +176,8 @@
         "category": "ia",
         "public": "Développeurs souhaitant accélérer leur productivité, développeurs adoptant les outils IA (Copilot, etc.), équipes techniques intégrant l'IA dans leur workflow",
         "prerequis": "Bases de développement (Java ou JavaScript recommandé)",
-        "objectifs": "Utiliser GitHub Copilot. Générer du code avec IA. Auditer et corriger le code généré. Intégrer l'IA dans son workflow.",
-        "modalites": "75% pratique / 25% théorie. Projets avec IA, comparaisons avant/après."
+        "objectifs": "Utiliser GitHub Copilot pour la complétion et la génération. Utiliser l'IA pour les tests unitaires, le refactoring, le débogage et la documentation. Auditer et corriger le code généré (vigilance critique).",
+        "modalites": "75% pratique / 25% théorie. Projets avec IA, comparaisons avant/après, sans dette technique."
     },
     {
         "title": "IA Intégrée au Produit (Intelligence Métier)",
@@ -186,7 +186,7 @@
         "category": "ia",
         "public": "Développeurs Java/Spring intégrant l'IA dans leurs applications, Product Owners enrichissant leurs produits avec l'IA, architectes concevant des solutions avec IA",
         "prerequis": "Java & Spring. Bases API REST.",
-        "objectifs": "Intégrer des API IA. Créer des fonctionnalités intelligentes. Gérer les coûts et limites. Éthique et responsabilité IA.",
+        "objectifs": "Transformer l'IA en fonctionnalités rentables. Intégrer des API IA et développer des Chatbots IA. Implémenter le RAG (Retrieval-Augmented Generation) pour la contextualisation. Créer de la valeur ajoutée.",
         "modalites": "70% pratique / 30% théorie. Projets d'intégration IA dans applications."
     },
     {
@@ -194,9 +194,9 @@
         "duration": "5 jours",
         "level": "Avancé",
         "category": "ia",
-        "public": "DevOps Engineers adoptant l'IA dans leurs workflows, développeurs responsables de la qualité du code, SRE (Site Reliability Engineers)",
+        "public": "Tech Leads responsables de la qualité, DevOps Engineers adoptant l'IA, développeurs, SRE (Site Reliability Engineers)",
         "prerequis": "DevOps de base, CI/CD, Docker",
-        "objectifs": "Automatiser les tests avec IA. Détecter les bugs avec IA. Optimiser les pipelines. Surveiller la qualité avec IA.",
+        "objectifs": "Automatiser la fiabilité et la sécurité avec l'IA. Détecter les bugs et failles avec IA. Optimiser les pipelines CI/CD. Surveiller la qualité.",
         "modalites": "70% pratique / 30% théorie. Projets DevOps + IA, automatisation."
     },
     {
@@ -204,9 +204,9 @@
         "duration": "3 jours",
         "level": "Tous niveaux",
         "category": "ia",
-        "public": "Décideurs techniques (CTO, Tech Leads, Architectes), managers d'équipes de développement, responsables de la stratégie technologique",
+        "public": "Architectes & CTO, Décideurs techniques, Tech Leads, managers d'équipes de développement, responsables de la stratégie technologique",
         "prerequis": "Culture technologique générale",
-        "objectifs": "Comprendre les agents IA. Anticiper les évolutions. Définir une stratégie IA. Évaluer les impacts organisationnels.",
+        "objectifs": "Comprendre les agents autonomes et copilotes avancés. Anticiper les évolutions. Définir une stratégie IA technologique. Préparer les équipes.",
         "modalites": "50% théorie / 50% débats. Études de cas, vision stratégique."
     }
 ]
