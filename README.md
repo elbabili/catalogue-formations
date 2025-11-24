@@ -12,8 +12,9 @@ Site web présentant mon catalogue de formations professionnelles en développem
 - Spring/Hibernate
 - Maven/tests unitaires
 - API REST & Sécurité
-- Gestion de projet agile (Scrum / SAFe)
+- Gestion de projet agile (Scrum)
 - Qualité du code et DevOps.
+- IA
 
 ## 🌐 Voir le site
 [https://elbabili.github.io/catalogue-formations/](https://elbabili.github.io/catalogue-formations/)
