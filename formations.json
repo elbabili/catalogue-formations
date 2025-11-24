@@ -166,7 +166,7 @@
         "category": "ia",
         "public": "Tout public, professionnels souhaitant gagner en productivité, personnes curieuses des outils IA. Aucune compétence technique requise",
         "prerequis": "Aucun",
-        "objectifs": "Comprendre l'IA générative. Maîtriser le Prompt Engineering (la syntaxe universelle). Utiliser ChatGPT, Claude, Copilot. Automatiser des tâches et gagner du temps.",
+        "objectifs": "Comprendre l'IA générative. Maîtriser le Prompt Engineering (la syntaxe universelle). Utiliser Gemini, ChatGPT, Claude. Automatiser des tâches et gagner du temps.",
         "modalites": "60% pratique / 40% théorie. Ateliers prompting, cas d'usage métier."
     },
     {
