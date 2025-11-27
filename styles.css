@@ -539,3 +539,24 @@ body {
         min-width: 140px;
     }
 }
+
+.formation-card > *:first-child {
+    margin-top: 0 !important;
+}
+
+.formation-card > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.formation-section:first-child {
+    margin-top: 0 !important;
+}
+
+.formation-section:last-child {
+    margin-bottom: 0 !important;
+}
+
+.formation-section p:last-child,
+.formation-section ul:last-child {
+    margin-bottom: 0 !important;
+}
