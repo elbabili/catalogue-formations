@@ -106,41 +106,18 @@ body {
     margin-bottom: 3rem;
 }
 
-/*.formation-card {
-    background: white;
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
-}
-
-.formation-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}*/
-
 .formation-card {
     background: white;
     border-radius: 12px;
-    padding: 2rem;
+    padding: 1rem 2rem;  /* 1rem en haut/bas, 2rem gauche/droite */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     border: 1px solid var(--border-color);
-    
-    /* Force la carte à utiliser flexbox en colonne */
-    display: flex;
-    flex-direction: column;
 }
+
 .formation-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}
-.formation-section:last-child {
-    flex-grow: 1;
-}
-.formation-section:last-child > *:last-child {
-    margin-bottom: 0;
 }
 
 .formation-header {
