@@ -41,11 +41,6 @@ function renderFormations(filteredFormations) {
                 <h4>📋 Prérequis</h4>
                 <p>${formation.prerequis}</p>
             </div>
-
-            <div class="formation-section">
-                <h4>🎓 Modalités</h4>
-                <p>${formation.modalites}</p>
-            </div>
         `;
         grid.appendChild(card);
     });
