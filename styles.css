@@ -109,7 +109,7 @@ body {
 .formation-card {
     background: white;
     border-radius: 12px;
-    padding: 1rem 2rem;  /* 1rem en haut/bas, 2rem gauche/droite */
+    padding: 1rem 2rem 0.5rem 2rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     border: 1px solid var(--border-color);
@@ -540,23 +540,19 @@ body {
     }
 }
 
+/* ===== SUPPRESSION DES ESPACES DANS LES CARTES ===== */
+
+/* Première section : pas d'espace en haut */
 .formation-card > *:first-child {
     margin-top: 0 !important;
 }
 
+/* Dernière section : pas d'espace en bas */
 .formation-card > *:last-child {
     margin-bottom: 0 !important;
 }
 
-.formation-section:first-child {
-    margin-top: 0 !important;
-}
-
-.formation-section:last-child {
-    margin-bottom: 0 !important;
-}
-
-.formation-section p:last-child,
-.formation-section ul:last-child {
+/* Dernier élément de chaque section : pas d'espace en bas */
+.formation-section > *:last-child {
     margin-bottom: 0 !important;
 }
