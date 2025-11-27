@@ -23,11 +23,13 @@ body {
 }
 
 .header {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+     background: linear-gradient(135deg, #00f0ff 0%, #0099ff 25%, #0066ff 50%, #0033cc 100%);
     color: white;
     padding: 3rem 2rem;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 
+        0 4px 20px rgba(0, 153, 255, 0.3),
+        0 0 40px rgba(0, 240, 255, 0.2);
 }
 
 .header h1 {
