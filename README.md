@@ -1,4 +1,4 @@
-# 📚 Catalogue de Formations 2025
+# 📚 IAK Formations
 
 Site web présentant mon catalogue de formations professionnelles en développement Java, Spring, Angular, DevOps et IA.
 
