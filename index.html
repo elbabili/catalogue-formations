@@ -177,7 +177,7 @@
                 <div class="form-group">
                     <label class="checkbox-label">
                         <input type="checkbox" id="conditions" name="conditions" required>
-                        <span>J'accepte que mes données soient utilisées pour répondre à ma demande *</span>
+                        <span>J'accepte que mes données soient utilisées pour répondre à ma demande (voir notre <a href="#" onclick="openModal('confidentialite'); return false;">politique de confidentialité</a>) *</span>
                     </label>
                 </div>
 
@@ -189,14 +189,142 @@
 
     <footer class="footer">
         <p>&copy; 2025 - IAK Formations. Tous droits réservés.</p>
-        <p style="margin-top: 1.5rem;">
-            <a href="https://www.linkedin.com/in/melbabili31" target="_blank"
-                style="color: white; text-decoration: none; font-size: 1rem; opacity: 0.9;">
-                🔗 Retrouvez-moi sur LinkedIn
-            </a>
-        </p>
+        <div class="footer-links">
+            <a href="#" onclick="openModal('mentions'); return false;">Mentions légales</a>
+            <a href="#" onclick="openModal('confidentialite'); return false;">Politique de confidentialité</a>
+            <a href="https://www.linkedin.com/in/melbabili31" target="_blank">🔗 LinkedIn</a>
+        </div>
     </footer>
+
+    <!-- MODALE MENTIONS LÉGALES -->
+    <div id="modal-mentions" class="modal-overlay" onclick="closeModalOnOverlay(event, 'mentions')">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('mentions')">&times;</button>
+            <h2>📜 Mentions Légales</h2>
+            
+            <h3>Éditeur du site</h3>
+            <p>
+                <strong>IAK Formations</strong><br>
+                Mohamed EL BABILI<br>
+                Formateur et consultant indépendant<br>
+                Adresse : 14 Rue Cécile Brunschvicg 31200 TOULOUSE<br>
+                Téléphone : 0616334061<br>
+                Email : elbabilimohamed@gmail.com<br>
+                SIRET : 79185576000025
+            </p>
+
+            <h3>Hébergement</h3>
+            <p>
+                Ce site est hébergé par : <strong>GitHub Pages</strong><br>
+            </p>
+
+            <h3>Propriété intellectuelle</h3>
+            <p>
+                L'ensemble du contenu de ce site (textes, images, logos, programmes de formation) est la propriété exclusive d'IAK Formations, sauf mention contraire. Toute reproduction, distribution, modification ou utilisation sans autorisation écrite préalable est interdite.
+            </p>
+        </div>
+    </div>
+
+    <!-- MODALE POLITIQUE DE CONFIDENTIALITÉ -->
+    <div id="modal-confidentialite" class="modal-overlay" onclick="closeModalOnOverlay(event, 'confidentialite')">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('confidentialite')">&times;</button>
+            <h2>🔒 Politique de Confidentialité</h2>
+            
+            <p><em>Dernière mise à jour : Décembre 2025</em></p>
+
+            <h3>Responsable du traitement</h3>
+            <p>
+                <strong>IAK Formations</strong> — Mohamed EL BABILI<br>
+                Email : elbabilimohamed@gmail.com
+            </p>
+
+            <h3>Données collectées</h3>
+            <p>Nous collectons uniquement les données que vous nous transmettez volontairement via le formulaire de contact :</p>
+            <ul>
+                <li>Nom complet</li>
+                <li>Adresse email</li>
+                <li>Numéro de téléphone (optionnel)</li>
+                <li>Nom de l'entreprise (optionnel)</li>
+                <li>Formation souhaitée</li>
+                <li>Message</li>
+            </ul>
+
+            <h3>Finalité du traitement</h3>
+            <p>Vos données sont collectées uniquement pour :</p>
+            <ul>
+                <li>Répondre à votre demande d'information</li>
+                <li>Vous recontacter concernant nos formations</li>
+                <li>Établir un devis ou une convention de formation</li>
+            </ul>
+
+            <h3>Base légale</h3>
+            <p>Le traitement de vos données est fondé sur votre consentement explicite (case à cocher du formulaire), conformément à l'article 6.1.a du RGPD.</p>
+
+            <h3>Destinataires des données</h3>
+            <p>Vos données sont transmises à :</p>
+            <ul>
+                <li><strong>Formspree</strong> (service de traitement de formulaires) — pour la transmission sécurisée de votre message</li>
+                <li><strong>IAK Formations</strong> — pour le traitement de votre demande</li>
+            </ul>
+            <p>Vos données ne sont jamais vendues ni cédées à des tiers à des fins commerciales.</p>
+
+            <h3>Durée de conservation</h3>
+            <p>Vos données sont conservées pendant une durée maximale de 3 ans à compter de notre dernier contact, conformément aux recommandations de la CNIL pour la prospection B2B.</p>
+
+            <h3>Vos droits</h3>
+            <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+            <ul>
+                <li><strong>Droit d'accès</strong> : obtenir une copie de vos données</li>
+                <li><strong>Droit de rectification</strong> : corriger vos données inexactes</li>
+                <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données</li>
+                <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format structuré</li>
+                <li><strong>Droit d'opposition</strong> : vous opposer au traitement de vos données</li>
+                <li><strong>Droit de retrait du consentement</strong> : retirer votre consentement à tout moment</li>
+            </ul>
+            <p>Pour exercer ces droits, contactez-nous à : elbabilimohamed@gmail.com</p>
+
+            <h3>Cookies</h3>
+            <p>Ce site n'utilise pas de cookies de traçage ou publicitaires. Seuls des cookies techniques essentiels au fonctionnement du site peuvent être déposés par l'hébergeur (GitHub Pages).</p>
+
+            <h3>Sécurité</h3>
+            <p>Nous mettons en œuvre des mesures techniques appropriées pour protéger vos données contre tout accès non autorisé, modification ou destruction. Le formulaire est transmis via une connexion sécurisée HTTPS.</p>
+
+            <h3>Réclamation</h3>
+            <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL : <a href="https://www.cnil.fr" target="_blank">www.cnil.fr</a></p>
+
+        </div>
+    </div>
+
     <script src="script.js"></script>
+    <script>
+        // Gestion des modales
+        function openModal(modalName) {
+            document.getElementById('modal-' + modalName).classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalName) {
+            document.getElementById('modal-' + modalName).classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function closeModalOnOverlay(event, modalName) {
+            if (event.target.classList.contains('modal-overlay')) {
+                closeModal(modalName);
+            }
+        }
+
+        // Fermer avec Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                document.querySelectorAll('.modal-overlay.active').forEach(function(modal) {
+                    modal.classList.remove('active');
+                });
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
 </body>
 
 </html>
