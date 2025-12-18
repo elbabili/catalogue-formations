@@ -156,11 +156,12 @@
 
                 <div class="form-row-2cols">
                     <div class="form-group">
-                        <label for="formation">Formation intéressée *</label>
+                        <label for="formation">Formation souhaitée *</label>
                         <select id="formation" name="formation" required>
                             <option value="">-- Sélectionnez une formation --</option>
                             <option value="java">Java</option>
                             <option value="angular">Angular & Web</option>
+                            <option value="uml-scrum">UML - Scrum</option>
                             <option value="spring">Spring</option>
                             <option value="devops">DevOps</option>
                             <option value="ia">Intelligence Artificielle</option>
@@ -282,7 +283,7 @@
                 <li><strong>Droit d'opposition</strong> : vous opposer au traitement de vos données</li>
                 <li><strong>Droit de retrait du consentement</strong> : retirer votre consentement à tout moment</li>
             </ul>
-            <p>Pour exercer ces droits, contactez-nous à : elbabilimohamed@gmail.com</p>
+            <p>Pour exercer ces droits, contactez-nous à : contact@iak-formations.fr</p>
 
             <h3>Cookies</h3>
             <p>Ce site n'utilise pas de cookies de traçage ou publicitaires. Seuls des cookies techniques essentiels au fonctionnement du site peuvent être déposés par l'hébergeur (GitHub Pages).</p>
@@ -297,34 +298,6 @@
     </div>
 
     <script src="script.js"></script>
-    <script>
-        // Gestion des modales
-        function openModal(modalName) {
-            document.getElementById('modal-' + modalName).classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeModal(modalName) {
-            document.getElementById('modal-' + modalName).classList.remove('active');
-            document.body.style.overflow = 'auto';
-        }
-
-        function closeModalOnOverlay(event, modalName) {
-            if (event.target.classList.contains('modal-overlay')) {
-                closeModal(modalName);
-            }
-        }
-
-        // Fermer avec Escape
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                document.querySelectorAll('.modal-overlay.active').forEach(function(modal) {
-                    modal.classList.remove('active');
-                });
-                document.body.style.overflow = 'auto';
-            }
-        });
-    </script>
 </body>
 
 </html>

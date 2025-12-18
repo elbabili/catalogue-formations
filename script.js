@@ -61,6 +61,7 @@ function filterFormations(category) {
     renderFormations(filtered);
 }
 
+// Gestion du formulaire de contact
 document.getElementById('formulaire-contact').addEventListener('submit', async function (e) {
     e.preventDefault();
 
@@ -84,7 +85,7 @@ document.getElementById('formulaire-contact').addEventListener('submit', async f
     messageDiv.textContent = '';
 
     try {
-        // Option 1 : Envoyer vers Formspree (gratuit, fiable)
+        // Envoyer vers Formspree
         const response = await fetch('https://formspree.io/f/myzbnagd', {
             method: 'POST',
             headers: {
@@ -107,5 +108,34 @@ document.getElementById('formulaire-contact').addEventListener('submit', async f
     } finally {
         button.disabled = false;
         button.textContent = 'Envoyer ma demande';
+    }
+});
+
+// ===== GESTION DES MODALES =====
+
+function openModal(modalName) {
+    document.getElementById('modal-' + modalName).classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal(modalName) {
+    document.getElementById('modal-' + modalName).classList.remove('active');
+    document.body.style.overflow = 'auto';
+}
+
+function closeModalOnOverlay(event, modalName) {
+    if (event.target.classList.contains('modal-overlay')) {
+        closeModal(modalName);
+    }
+}
+
+// Fermer les modales avec la touche Échap
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        const activeModal = document.querySelector('.modal-overlay.active');
+        if (activeModal) {
+            activeModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
     }
 });
