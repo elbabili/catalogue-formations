@@ -577,7 +577,7 @@ body {
 }
 
 .header-description {
-    font-size: 1.2rem;
+    font-size: 1.8rem !important;
     opacity: 0.95;
     line-height: 1.5;
     color: white;
@@ -734,4 +734,25 @@ body {
         align-items: center;
         gap: 1rem;
     }
+}
+
+.cv-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: #ffffff;
+    color: #103176;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
+}
+
+.cv-btn:hover {
+    background: transparent;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
 }
