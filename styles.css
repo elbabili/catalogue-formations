@@ -741,11 +741,12 @@ body {
     filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
 }
 
-.header-description {
+.header .header-description {
     font-size: 1.8rem;
     opacity: 0.95;
     line-height: 1.5;
     color: white;
+    max-width: none;
 }
 
 .cv-btn {
@@ -790,7 +791,7 @@ body {
         height: 90px;
     }
 
-    .header-description {
+    .header .header-description {
         font-size: 1.15rem;
         line-height: 1.4;
     }
