@@ -31,9 +31,7 @@ body {
     color: white;
     padding: 1.5rem 2rem;
     text-align: center;
-    box-shadow: 
-        0 4px 20px rgba(0, 153, 255, 0.3),
-        0 0 40px rgba(0, 240, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 153, 255, 0.3);
 }
 
 .header h1 {
@@ -402,7 +400,7 @@ body {
 
 .stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
     gap: 1.5rem;
     margin-bottom: 3rem;
 }
@@ -530,31 +528,6 @@ body {
         font-size: 1rem;
     }
 
-    .header {
-        padding: 1rem;
-    }
-
-    .header-brand {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 1rem;
-    }
-
-    .header-logo {
-        width: 100px;
-        height: 100px;
-    }
-
-    .header-description {
-        font-size: 1.2rem !important;
-        line-height: 1.4;
-    }
-
-    .cv-btn {
-        margin-top: 0.5rem;
-    }
-
     .formations-grid {
         grid-template-columns: 1fr;
     }
@@ -596,12 +569,10 @@ body {
 
 /* ===== SUPPRESSION DES ESPACES DANS LES CARTES ===== */
 
-/* Première section : pas d'espace en haut */
 .formation-card > *:first-child {
     margin-top: 0 !important;
 }
 
-/* Dernière section : pas d'espace en bas */
 .formation-card > *:last-child {
     margin-bottom: 0 !important;
 }
@@ -611,34 +582,7 @@ body {
     margin-bottom: 0 !important;
 }
 
-.header-brand {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-.header-logo {
-    width: 150px;
-    height: 150px;
-    flex-shrink: 0;
-    background: transparent;
-    border: none;
-    padding: 0;
-    box-shadow: none;
-    object-fit: contain;
-    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
-}
-
-.header-description {
-    font-size: 1.8rem !important;
-    opacity: 0.95;
-    line-height: 1.5;
-    color: white;
-}
-
 /* ===== MODALES MENTIONS LÉGALES & CONFIDENTIALITÉ ===== */
-/* Compatible Chrome, Firefox, Safari */
 
 .modal-overlay {
     position: fixed;
@@ -650,7 +594,6 @@ body {
     z-index: 1000;
     overflow-y: auto;
     padding: 2rem;
-    /* État caché par défaut */
     visibility: hidden;
     opacity: 0;
     display: flex;
@@ -675,7 +618,6 @@ body {
     margin: 2rem auto;
     max-height: calc(100vh - 4rem);
     overflow-y: auto;
-    /* Animation d'entrée */
     transform: translateY(-20px);
     transition: transform 0.3s ease;
 }
@@ -777,17 +719,33 @@ body {
     color: #856404;
 }
 
-@media (max-width: 768px) {
-    .modal-content {
-        padding: 1.5rem;
-        margin: 1rem;
-    }
-    
-    .footer-links {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
+/* ===== HEADER BRAND ===== */
+
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+}
+
+.header-logo {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    background: transparent;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+}
+
+.header-description {
+    font-size: 1.8rem;
+    opacity: 0.95;
+    line-height: 1.5;
+    color: white;
 }
 
 .cv-btn {
@@ -802,6 +760,8 @@ body {
     font-size: 0.9rem;
     transition: all 0.3s ease;
     border: 2px solid #ffffff;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .cv-btn:hover {
@@ -809,4 +769,44 @@ body {
     color: #ffffff;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+    .header {
+        padding: 1.5rem 1rem;
+    }
+
+    .header-brand {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .header-logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .header-description {
+        font-size: 1.15rem;
+        line-height: 1.4;
+    }
+
+    .cv-btn {
+        margin-top: 0.5rem;
+    }
+
+    .modal-content {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
 }
