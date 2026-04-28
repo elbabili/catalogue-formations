@@ -144,48 +144,39 @@
         "objectifs": "Analyser la qualité du code. Mettre en place CI/CD. Containeriser avec Docker. Automatiser les déploiements."
     },
     {
-        "title": "IA Générative : Maîtrise du Prompt (Le Savoir-Faire Universel)",
-        "duration": "3-5 jours",
+        "title": "Maîtriser l'IA Générative avec Claude",
+        "duration": "5 jours",
         "level": "Tous niveaux",
         "category": "ia",
-        "public": "Tout public, professionnels souhaitant gagner en productivité, personnes curieuses des outils IA. Aucune compétence technique requise",
-        "prerequis": "Aucun",
-        "objectifs": "Comprendre l'IA générative. Maîtriser le Prompt Engineering (la syntaxe universelle). Utiliser Gemini, ChatGPT, Claude. Automatiser des tâches et gagner du temps."
+        "public": "Décideurs, chefs de projet, Product Owners, professionnels métier (RH, juridique, marketing, support), formateurs et consultants. Aucune compétence technique requise.",
+        "prerequis": "Aucun. Culture numérique générale.",
+        "objectifs": "Comprendre comment fonctionne l'IA générative (LLM, LRM...) pour des prompts efficaces et économiques (bien choisir le modèle selon le besoin). Maîtriser Claude.ai, Claude Desktop et exploiter Projects, Artifacts, Memory. Utiliser les extensions Claude pour Excel, PowerPoint, Chrome et Slack. Connecter Claude à Gmail, Drive, Calendar et utiliser Cowork pour automatiser le quotidien. Intégrer les enjeux d'éco-conception, d'accessibilité et de RGPD pour une IA inclusive et durable."
     },
     {
-        "title": "IA comme Assistant au Codage (Vitesse et Vigilance Critique)",
+        "title": "Claude Code : L'Agent Développeur en Pratique",
         "duration": "5 jours",
         "level": "Intermédiaire",
         "category": "ia",
-        "public": "Développeurs souhaitant accélérer leur productivité, développeurs adoptant les outils IA (Copilot, etc.), équipes techniques intégrant l'IA dans leur workflow",
-        "prerequis": "Bases de développement (Java ou JavaScript recommandé)",
-        "objectifs": "Utiliser GitHub Copilot pour la complétion et la génération. Utiliser l'IA pour les tests unitaires, le refactoring, le débogage et la documentation. Auditer et corriger le code généré (vigilance critique)."
+        "public": "Développeurs de tous niveaux (débutant à senior), tech leads, ingénieurs DevOps. Toutes stacks (Java, Python, Node, .NET, Go, Rust...). Souhait commun : passer du codage manuel au codage agentique avec discipline.",
+        "prerequis": "Bases de développement et de Git. Maîtrise d'un IDE (VS Code, JetBrains, ou autre). Module 1 recommandé pour les non-initiés à l'écosystème Claude.",
+        "objectifs": "Comprendre la boucle agent et le tool use (la mécanique qui rend Claude Code productif). Maîtriser Claude Code CLI ou extension VS Code ou Cursor (installation, commandes slash, plan mode). Cadrer ses projets avec CLAUDE.md et exploiter l'Auto Memory pour gagner en cohérence. Pratiquer l'hygiène du contexte (/context, /compact, sub-agents) pour optimiser coûts et performance. Construire ses propres workflows (commandes custom, hooks, skills) pour automatiser le quotidien."
     },
     {
-        "title": "IA Intégrée au Produit (Intelligence Métier)",
+        "title": "Construire avec l'API Claude : Tool Use et MCP",
         "duration": "5 jours",
         "level": "Avancé",
         "category": "ia",
-        "public": "Développeurs Java/Spring intégrant l'IA dans leurs applications, Product Owners enrichissant leurs produits avec l'IA, architectes concevant des solutions avec IA",
-        "prerequis": "Java & Spring. Bases API REST.",
-        "objectifs": "Transformer l'IA en fonctionnalités rentables. Intégrer des API IA et développer des Chatbots IA. Implémenter le RAG (Retrieval-Augmented Generation) pour la contextualisation. Créer de la valeur ajoutée."
+        "public": "Développeurs back-end (Python, Node, Java), ingénieurs IA, Product Builders IA, architectes solutions souhaitant construire des produits IA. Tech leads pilotant des projets agentiques.",
+        "prerequis": "Solides bases de développement back-end. Expérience d'au moins une API REST. Modules 1 et 2 recommandés (ou maîtrise équivalente de l'écosystème Claude).",
+        "objectifs": "Maîtriser les SDK backend Claude (Python, Node, Java) : appels API, structure messages, streaming, gestion des erreurs. Implémenter le tool use et les workflows d'agents IA (cycle complet, schéma JSON, retry loops, validation, patterns mono-agent et multi-step). Concevoir des agents fonctionnels (gestion du contexte, persistance, orchestration légère). Installer et sécuriser des serveurs MCP existants (Gmail, GitHub, filesystem, scopes et permissions). Créer son premier serveur MCP custom (Python ou TypeScript, tools, resources, déploiement local)."
     },
     {
-        "title": "IA pour la Qualité et le DevOps (Fiabilité et Maintenance)",
+        "title": "Architecturer et Industrialiser des Systèmes IA avec Claude",
         "duration": "5 jours",
-        "level": "Avancé",
+        "level": "Expert",
         "category": "ia",
-        "public": "Tech Leads responsables de la qualité, DevOps Engineers adoptant l'IA, développeurs, SRE (Site Reliability Engineers)",
-        "prerequis": "DevOps de base, CI/CD, Docker",
-        "objectifs": "Automatiser la fiabilité et la sécurité avec l'IA. Détecter les bugs et failles avec IA. Optimiser les pipelines CI/CD. Surveiller la qualité."  
-    },
-    {
-        "title": "IA : Perspectives d'Avenir (Agents et Stratégie)",
-        "duration": "3 jours",
-        "level": "Tous niveaux",
-        "category": "ia",
-        "public": "Architectes & CTO, Décideurs techniques, Tech Leads, managers d'équipes de développement, responsables de la stratégie technologique",
-        "prerequis": "Culture technologique générale",
-        "objectifs": "Comprendre les agents autonomes et copilotes avancés. Anticiper les évolutions. Définir une stratégie IA technologique. Préparer les équipes."
+        "public": "Architectes solutions, Tech Leads IA, ingénieurs IA seniors, équipes plateforme pilotant des projets IA en production.",
+        "prerequis": "Modules 1, 2 et 3 complets (ou maîtrise équivalente). Expérience de production avec API LLM, Docker, et CI/CD.",
+        "objectifs": "Architecturer des systèmes multi-agents (Agent Teams, sub-agents, patterns hub-and-spoke, orchestration cloud). Sécuriser les applications IA en production (prompt injection, guardrails, sandboxing, RBAC/LLMAC, secrets). Concevoir et déployer des serveurs MCP avancés (Docker, transport SSE/HTTP, MCP Toolkit, app MCP complète). Évaluer et observer ses agents (graders, evals, métriques, monitoring continu) et industrialiser via CI/CD. Maîtriser l'IA locale et la conformité (Ollama, AI Act, RGPD) pour des déploiements souverains."
     }
 ]
