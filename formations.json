@@ -51,7 +51,7 @@
         "category": "java",
         "public": "Développeurs Java manipulant des BDD, débutants en bases de données relationnelles, développeurs applications métier",
         "prerequis": "Bases de Java SE Niveau 2",
-        "objectifs": "Concevoir une base de données relationnelle. Écrire des requêtes SQL. Gérer les migrations versionnées de schéma. Intégrer SQL dans des applications Java. Utiliser JDBC."
+        "objectifs": "Concevoir une base de données relationnelle. Écrire des requêtes SQL. Gérer les migrations versionnées de schéma (Flyway/Liquibase). Intégrer PostgreSQL dans des applications Java. Utiliser JDBC."
     },
     {
         "title": "Java SE - Niveau 3 : Concepts Avancés",
@@ -105,7 +105,7 @@
         "category": "frameworks",
         "public": "Développeurs Java souhaitant apprendre Spring, étudiants et alternants en informatique (Bac+3/4/5), développeurs se reconvertissant vers Java/Spring",
         "prerequis": "Java SE Niveaux 1, 2 & 3. Bases SQL.",
-        "objectifs": "Maîtriser l'injection de dépendances. Créer des applications Spring Boot. Utiliser Spring Data JPA. Exploiter virtual threads pour la concurrence. Gérer les transactions."
+        "objectifs": "Maîtriser l'injection de dépendances. Créer des applications Spring Boot. Utiliser Spring Data JPA. Exploiter virtual threads pour la concurrence. Compiler en images natives avec GraalVM. Gérer les transactions."
     },
     {
         "title": "Maven & Tests : Qualité et Automatisation",
@@ -141,7 +141,7 @@
         "category": "devops",
         "public": "Développeurs souhaitant améliorer la qualité de leur code, Tech leads responsables de la qualité logicielle, DevOps Engineers mettant en place des pipelines CI/CD",
         "prerequis": "Java & Spring, Git, bases Linux",
-        "objectifs": "Analyser la qualité du code. Mettre en place CI/CD avec GitHub Actions. Containeriser avec Docker et Docker Compose. Automatiser les déploiements. Intégrer l'observability et les traces distribuées."
+        "objectifs": "Analyser la qualité du code. Mettre en place CI/CD avec Jenkins, GitHub Actions ou GitLab CI. Containeriser avec Docker et Docker Compose. Automatiser les déploiements. Intégrer l'observability et les traces distribuées."
     },
     {
         "title": "Maîtriser l'IA Générative avec Claude",
