@@ -1,0 +1,182 @@
+[
+    {
+        "title": "Java SE - Niveau 1 : Fondamentaux et Pratique",
+        "duration": "5 jours",
+        "level": "Débutant",
+        "category": "java",
+        "public": "Développeurs débutants, reconversions professionnelles vers le développement, toute personne souhaitant apprendre Java",
+        "prerequis": "Aucun prérequis technique. Logique de base et motivation.",
+        "objectifs": "Connaître la syntaxe Java et les concepts de base. Utiliser un IDE. Créer des programmes simples. Comprendre les types de données et structures de contrôle."
+    },
+    {
+        "title": "Algorithmique : Penser comme un Développeur",
+        "duration": "3-5 jours",
+        "level": "Débutant",
+        "category": "java",
+        "public": "Développeurs souhaitant structurer leur pensée, reconversions professionnelles",
+        "prerequis": "Bases de Java SE Niveau 1 (ou équivalent dans un autre langage)",
+        "objectifs": "Analyser un problème. Concevoir des algorithmes. Appliquer les structures de données. Résoudre des problèmes logiques."
+    },
+    {
+        "title": "Git & GitHub : De la Console au Travail en Équipe",
+        "duration": "5 jours",
+        "level": "Débutant",
+        "category": "devops",
+        "public": "Développeurs débutants ou intermédiaires, équipes souhaitant structurer leur collaboration, chefs de projets techniques",
+        "prerequis": "Connaître les bases de la programmation",
+        "objectifs": "Utiliser Git en ligne de commande. Gérer les branches et fusions. Collaborer efficacement avec GitHub. Appliquer les workflows Git dans des projets réels."
+    },
+    {
+        "title": "Java SE - Niveau 2 : Programmation Orientée Objet",
+        "duration": "5 jours",
+        "level": "Intermédiaire",
+        "category": "java",
+        "public": "Développeurs ayant suivi Java SE Niveau 1, développeurs connaissant les bases de Java, développeurs venant de langages procéduraux",
+        "prerequis": "Bases de Java (syntaxe, types, structures de contrôle)",
+        "objectifs": "Concevoir des classes et objets. Appliquer l'encapsulation, héritage, polymorphisme. Utiliser les collections Java. Gérer les exceptions."
+    },
+    {
+        "title": "UML : Modéliser avant de Coder",
+        "duration": "3-4 jours",
+        "level": "Intermédiaire",
+        "category": "gestion",
+        "public": "Développeurs structurant leur conception, analystes et concepteurs d'applications, chefs de projets techniques, architectes logiciels débutants",
+        "prerequis": "Bases de programmation orientée objet",
+        "objectifs": "Créer des diagrammes UML. Modéliser des applications. Passer de la conception au code. Communiquer avec des diagrammes."
+    },
+    {
+        "title": "Bases de Données & SQL : De la Conception à l'Intégration",
+        "duration": "5 jours",
+        "level": "Débutant",
+        "category": "java",
+        "public": "Développeurs Java manipulant des BDD, débutants en bases de données relationnelles, développeurs applications métier",
+        "prerequis": "Bases de Java SE Niveau 2",
+        "objectifs": "Concevoir une base de données relationnelle. Écrire des requêtes SQL. Gérer les migrations versionnées de schéma. Intégrer SQL dans des applications Java. Utiliser JDBC."
+    },
+    {
+        "title": "Java SE - Niveau 3 : Concepts Avancés",
+        "duration": "7 jours",
+        "level": "Avancé",
+        "category": "java",
+        "public": "Développeurs Java intermédiaires, développeurs souhaitant monter en compétences, développeurs se préparant aux frameworks Java, candidats aux certifications Java",
+        "prerequis": "Java SE Niveaux 1 & 2 ou expérience équivalente",
+        "objectifs": "Maîtriser les Streams et lambdas. Exploiter records, pattern matching et sealed classes. Gérer la concurrence avec virtual threads. Manipuler les fichiers et flux. Utiliser Claude Code pour accélérer le refactoring."
+    },
+    {
+        "title": "Développement Web Front-End : HTML, CSS & JavaScript",
+        "duration": "10 jours",
+        "level": "Débutant",
+        "category": "web",
+        "public": "Développeurs back-end apprenant le front-end, débutants en développement web, reconversions professionnelles, graphistes/designers",
+        "prerequis": "Aucun prérequis technique. Logique de base.",
+        "objectifs": "Créer des pages HTML structurées. Styliser avec CSS. Programmer en JavaScript. Créer des interfaces interactives."
+    },
+    {
+        "title": "Angular - Niveau 1 : Développer des Applications SPA",
+        "duration": "5 jours",
+        "level": "Intermédiaire",
+        "category": "web",
+        "public": "Développeurs web souhaitant apprendre Angular, développeurs front-end se spécialisant, développeurs JavaScript montant en compétences, développeurs back-end évoluant vers le full-stack",
+        "prerequis": "Bases HTML, CSS, JavaScript. TypeScript recommandé.",
+        "objectifs": "Créer des composants autonomes (standalone). Utiliser la syntaxe de contrôle de flux moderne. Gérer le routing. Consommer des API REST. Déployer une application SPA."
+    },
+    {
+        "title": "Angular - Niveau 2 : Concepts Avancés et Programmation Réactive",
+        "duration": "5 jours",
+        "level": "Avancé",
+        "category": "web",
+        "public": "Développeurs Angular souhaitant approfondir, développeurs évoluant vers architecte front-end, équipes adoptant Angular en production",
+        "prerequis": "Angular Niveau 1 ou expérience Angular équivalente",
+        "objectifs": "Maîtriser Observables et Signals pour la réactivité moderne. Optimiser les performances. Gérer l'état applicatif. Appliquer les patterns avancés."
+    },
+    {
+        "title": "Angular & NgRx - Niveau 3 : State Management Avancé",
+        "duration": "10 jours",
+        "level": "Expert",
+        "category": "web",
+        "public": "Développeurs Angular, architectes front-end, équipes adoptant NgRx en production",
+        "prerequis": "Angular Niveaux 1 & 2 ou expérience solide Angular",
+        "objectifs": "Implémenter NgRx Store et patterns modernes. Gérer les effets, reducers et synchronisation d'état. Architecturer des applications complexes. Débugger avec Redux DevTools."
+    },
+    {
+        "title": "Spring Framework : Les Fondamentaux",
+        "duration": "10 jours",
+        "level": "Intermédiaire",
+        "category": "frameworks",
+        "public": "Développeurs Java souhaitant apprendre Spring, étudiants et alternants en informatique (Bac+3/4/5), développeurs se reconvertissant vers Java/Spring",
+        "prerequis": "Java SE Niveaux 1, 2 & 3. Bases SQL.",
+        "objectifs": "Maîtriser l'injection de dépendances. Créer des applications Spring Boot. Utiliser Spring Data JPA. Exploiter virtual threads pour la concurrence. Gérer les transactions."
+    },
+    {
+        "title": "Maven & Tests : Qualité et Automatisation",
+        "duration": "10 jours",
+        "level": "Intermédiaire",
+        "category": "devops",
+        "public": "Développeurs Java/Spring souhaitant maîtriser les tests, équipes adoptant le TDD",
+        "prerequis": "Java SE & Spring Framework",
+        "objectifs": "Maîtriser Maven. Écrire des tests unitaires et tests d'intégration avec Testcontainers. Implémenter le TDD. Automatiser les tests."
+    },
+    {
+        "title": "API REST avec Spring & Sécurité JWT",
+        "duration": "10 jours",
+        "level": "Avancé",
+        "category": "frameworks",
+        "public": "Développeurs back-end Spring créant des API REST, développeurs full-stack connectant Angular et Spring, architectes concevant des microservices",
+        "prerequis": "Spring Framework, bases SQL",
+        "objectifs": "Créer des API REST. Documenter avec Swagger/OpenAPI. Implémenter OAuth 2.1 et OIDC pour l'authentification moderne. Gérer l'autorisation avec Spring Security. Auditer la sécurité avec Claude Code."
+    },
+    {
+        "title": "Gestion de Projet Agile avec Scrum",
+        "duration": "5 jours",
+        "level": "Tous niveaux",
+        "category": "gestion",
+        "public": "Développeurs, chefs de projets techniques évoluant vers Scrum Master, Product Owners, équipes de développement adoptant Scrum",
+        "prerequis": "Expérience en développement ou gestion de projet",
+        "objectifs": "Comprendre les valeurs Agile. Appliquer Scrum. Faciliter les cérémonies. Gérer un backlog."
+    },
+    {
+        "title": "Quality Code & DevOps : SonarQube, Jenkins et Docker",
+        "duration": "10 jours",
+        "level": "Avancé",
+        "category": "devops",
+        "public": "Développeurs souhaitant améliorer la qualité de leur code, Tech leads responsables de la qualité logicielle, DevOps Engineers mettant en place des pipelines CI/CD",
+        "prerequis": "Java & Spring, Git, bases Linux",
+        "objectifs": "Analyser la qualité du code. Mettre en place CI/CD avec GitHub Actions. Containeriser avec Docker et Docker Compose. Automatiser les déploiements. Intégrer l'observability et les traces distribuées."
+    },
+    {
+        "title": "Maîtriser l'IA Générative avec Claude",
+        "duration": "5 jours",
+        "level": "Tous niveaux",
+        "category": "ia",
+        "public": "Décideurs, chefs de projet, Product Owners, professionnels métier (RH, juridique, marketing, support), formateurs et consultants. Aucune compétence technique requise.",
+        "prerequis": "Aucun. Culture numérique générale.",
+        "objectifs": "Comprendre comment fonctionne l'IA générative (LLM, LRM...) pour des prompts efficaces et économiques (bien choisir le modèle selon le besoin). Maîtriser Claude.ai, Claude Desktop et exploiter Projects, Artifacts, Memory. Utiliser les extensions Claude pour Excel, PowerPoint, Chrome et Slack. Connecter Claude à Gmail, Drive, Calendar et utiliser Cowork pour automatiser le quotidien. Intégrer les enjeux d'éco-conception, d'accessibilité et de RGPD pour une IA inclusive et durable."
+    },
+    {
+        "title": "Claude Code : L'Agent Développeur en Pratique",
+        "duration": "5 jours",
+        "level": "Intermédiaire",
+        "category": "ia",
+        "public": "Développeurs de tous niveaux (débutant à senior), tech leads, ingénieurs DevOps. Toutes stacks (Java, Python, Node, .NET, Go, Rust...). Souhait commun : passer du codage manuel au codage agentique avec discipline.",
+        "prerequis": "Bases de développement et de Git. Maîtrise d'un IDE (VS Code, JetBrains, ou autre). Module 1 recommandé pour les non-initiés à l'écosystème Claude.",
+        "objectifs": "Comprendre la boucle agent et le tool use (la mécanique qui rend Claude Code productif). Maîtriser Claude Code CLI ou extension VS Code ou Cursor (installation, commandes slash, plan mode). Cadrer ses projets avec CLAUDE.md et exploiter l'Auto Memory pour gagner en cohérence. Pratiquer l'hygiène du contexte (/context, /compact, sub-agents) pour optimiser coûts et performance. Construire ses propres workflows (commandes custom, hooks, skills) pour automatiser le quotidien."
+    },
+    {
+        "title": "Construire avec l'API Claude : Tool Use et MCP",
+        "duration": "5 jours",
+        "level": "Avancé",
+        "category": "ia",
+        "public": "Développeurs back-end (Python, Node, Java), ingénieurs IA, Product Builders IA, architectes solutions souhaitant construire des produits IA. Tech leads pilotant des projets agentiques.",
+        "prerequis": "Solides bases de développement back-end. Expérience d'au moins une API REST. Modules 1 et 2 recommandés (ou maîtrise équivalente de l'écosystème Claude).",
+        "objectifs": "Maîtriser les SDK backend Claude (Python, Node, Java) : appels API, structure messages, streaming, gestion des erreurs. Implémenter le tool use et les workflows d'agents IA (cycle complet, schéma JSON, retry loops, validation, patterns mono-agent et multi-step). Concevoir des agents fonctionnels (gestion du contexte, persistance, orchestration légère). Installer et sécuriser des serveurs MCP existants (Gmail, GitHub, filesystem, scopes et permissions). Créer son premier serveur MCP custom (Python ou TypeScript, tools, resources, déploiement local)."
+    },
+    {
+        "title": "Architecturer et Industrialiser des Systèmes IA avec Claude",
+        "duration": "5 jours",
+        "level": "Expert",
+        "category": "ia",
+        "public": "Architectes solutions, Tech Leads IA, ingénieurs IA seniors, équipes plateforme pilotant des projets IA en production.",
+        "prerequis": "Modules 1, 2 et 3 complets (ou maîtrise équivalente). Expérience de production avec API LLM, Docker, et CI/CD.",
+        "objectifs": "Architecturer des systèmes multi-agents (Agent Teams, sub-agents, patterns hub-and-spoke, orchestration cloud). Sécuriser les applications IA en production (prompt injection, guardrails, sandboxing, RBAC/LLMAC, secrets). Concevoir et déployer des serveurs MCP avancés (Docker, transport SSE/HTTP, MCP Toolkit, app MCP complète). Évaluer et observer ses agents (graders, evals, métriques, monitoring continu) et industrialiser via CI/CD. Maîtriser l'IA locale et la conformité (Ollama, AI Act, RGPD) pour des déploiements souverains."
+    }
+]
