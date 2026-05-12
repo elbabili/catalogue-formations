@@ -144,13 +144,13 @@
         "objectifs": "Analyser la qualité du code. Mettre en place CI/CD avec Jenkins, GitHub Actions ou GitLab CI. Containeriser avec Docker et Docker Compose. Automatiser les déploiements. Intégrer l'observability et les traces distribuées."
     },
     {
-        "title": "Maîtriser l'IA Générative avec Claude",
-        "duration": "5 jours",
-        "level": "Tous niveaux",
-        "category": "ia",
-        "public": "Décideurs, chefs de projet, Product Owners, professionnels métier (RH, juridique, marketing, support), formateurs et consultants.",
-        "prerequis": "Aucun. Culture numérique générale.",
-        "objectifs": "Comprendre comment fonctionne l'IA générative (LLM, LRM...) pour des prompts efficaces et économiques (bien choisir le modèle selon le besoin). Maîtriser Claude.ai, Claude Desktop et exploiter Projects, Artifacts, Memory. Utiliser les extensions Claude pour Excel, PowerPoint, Chrome et Slack. Connecter Claude à Gmail, Drive, Calendar et utiliser Cowork pour automatiser le quotidien. Intégrer les enjeux d'éco-conception, d'accessibilité et de RGPD pour une IA inclusive et durable."
+    "title": "Maîtriser l'IA Générative avec Claude",
+    "duration": "5 jours",
+    "level": "Tous niveaux",
+    "category": "ia",
+    "public": "Décideurs, chefs de projet, Product Owners, professionnels métier (RH, juridique, marketing, support), formateurs et consultants.",
+    "prerequis": "Aucun. Culture numérique générale.",
+    "objectifs": "Comprendre comment fonctionne l'IA générative (LLM, RAG, AI Agents) pour des prompts efficaces et économiques. Maîtriser Claude.ai et exploiter Projects, Artifacts, Memory. Utiliser les extensions Claude (PowerPoint, Excel, Chrome, Slack) et Claude Desktop pour travailler dans vos outils. Connecter Claude à Gmail, Drive, Calendar et utiliser Cowork pour automatiser le quotidien. Intégrer les enjeux d'éco-conception, de RGPD et d'AI Act pour une IA responsable."
     },
     {
         "title": "Claude Code : L'Agent Développeur en Pratique",
