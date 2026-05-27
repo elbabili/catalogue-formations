@@ -150,15 +150,15 @@
     "category": "ia",
     "public": "Décideurs, chefs de projet, Product Owners, professionnels métier (RH, juridique, marketing, support), formateurs et consultants.",
     "prerequis": "Aucun. Culture numérique générale.",
-    "objectifs": "Comprendre comment fonctionne l'IA générative (LLM, RAG, AI Agents) pour des prompts efficaces et économiques. Maîtriser Claude.ai et exploiter Projects, Artifacts, Memory. Utiliser les extensions Claude (PowerPoint, Excel, Chrome, Slack) et Claude Desktop pour travailler dans vos outils. Connecter Claude à Gmail, Drive, Calendar et utiliser Cowork pour automatiser le quotidien. Intégrer les enjeux d'éco-conception, de RGPD et d'AI Act pour une IA responsable."
+    "objectifs": "Comprendre comment fonctionne l'IA générative (LLM, RAG, AI Agents) pour des prompts efficaces et économiques. Maîtriser Claude.ai et exploiter Projects, Artifacts, Memory. Utiliser les extensions Claude (PowerPoint, Excel, Chrome, Slack) et Claude Desktop pour travailler dans vos outils. Connecter Claude à Gmail, Drive, Calendar et utiliser Cowork pour automatiser le quotidien. Intégrer les enjeux d'éco-conception, de RGPD et d'AI Act pour une IA responsable. Parcours Utilisateur (J1-J3) : fondamentaux, Claude.ai et outils métier. Parcours Power User (J4-J5) : connecteurs, automatisation et IA responsable."
     },
     {
         "title": "Claude Code : L'Agent Développeur en Pratique",
         "duration": "5 jours",
         "level": "Intermédiaire",
         "category": "ia",
-        "public": "Développeurs de tous niveaux (débutant à senior), tech leads, ingénieurs DevOps. Toutes stacks (Java, Python, Node, .NET, Go, Rust...). Souhait commun : passer du codage manuel au codage agentique avec discipline.",
-        "prerequis": "Bases de développement et de Git. Maîtrise d'un IDE (VS Code, JetBrains, ou autre). Module 1 recommandé pour les non-initiés à l'écosystème Claude.",
+        "public": "Développeurs avec au moins 6 mois de pratique (intermédiaires à seniors), tech leads, ingénieurs DevOps. Toutes stacks (Java, Python, Node, .NET, Go, Rust...). Souhait commun : passer du codage manuel au codage agentique avec discipline.",
+        "prerequis": "Bases de développement et de Git. Maîtrise d'un IDE (VS Code, JetBrains, ou autre). Module 1 recommandé pour les non-initiés à l'écosystème Claude. Minimum 6 mois de pratique du développement requis. Session d'onboarding J0 disponible sur demande pour les profils en transition (installation env., Git, CLI).",
         "objectifs": "Comprendre la boucle agent et le tool use (la mécanique qui rend Claude Code productif). Maîtriser Claude Code CLI ou extension VS Code ou Cursor (installation, commandes slash, plan mode). Cadrer ses projets avec CLAUDE.md et exploiter l'Auto Memory pour gagner en cohérence. Pratiquer l'hygiène du contexte (/context, /compact, sub-agents) pour optimiser coûts et performance. Construire ses propres workflows (commandes custom, hooks, skills) pour automatiser le quotidien."
     },
     {
@@ -166,9 +166,9 @@
         "duration": "5 jours",
         "level": "Avancé",
         "category": "ia",
-        "public": "Développeurs back-end (Python, Node, Java), ingénieurs IA, Product Builders IA, architectes solutions souhaitant construire des produits IA. Tech leads pilotant des projets agentiques.",
+        "public": "Développeurs back-end (Python, Node — Java en option), ingénieurs IA, Product Builders IA, architectes solutions souhaitant construire des produits IA. Tech leads pilotant des projets agentiques.",
         "prerequis": "Solides bases de développement back-end. Expérience d'au moins une API REST. Modules 1 et 2 recommandés (ou maîtrise équivalente de l'écosystème Claude).",
-        "objectifs": "Maîtriser les SDK backend Claude (Python, Node, Java) : appels API, structure messages, streaming, gestion des erreurs. Implémenter le tool use et les workflows d'agents IA (cycle complet, schéma JSON, retry loops, validation, patterns mono-agent et multi-step). Concevoir des agents fonctionnels (gestion du contexte, persistance, orchestration légère). Installer et sécuriser des serveurs MCP existants (Gmail, GitHub, filesystem, scopes et permissions). Créer son premier serveur MCP custom (Python ou TypeScript, tools, resources, déploiement local)."
+        "objectifs": "Maîtriser les SDK backend Claude (Python, Node — Java supporté partiellement, compatibilité SDK à vérifier) : appels API, structure messages, streaming, gestion des erreurs. Implémenter le tool use et les workflows d'agents IA (cycle complet, schéma JSON, retry loops, validation, patterns mono-agent et multi-step). Concevoir des agents fonctionnels (gestion du contexte, persistance, orchestration légère). Installer et sécuriser des serveurs MCP existants (Gmail, GitHub, filesystem, scopes et permissions). Créer son premier serveur MCP custom (Python ou TypeScript, tools, resources, déploiement local). Introduire les evals agents : métriques de base, assertions et premiers tests de régression pour préparer le Module 4."
     },
     {
         "title": "Architecturer et Industrialiser des Systèmes IA avec Claude",
@@ -177,6 +177,6 @@
         "category": "ia",
         "public": "Architectes solutions, Tech Leads IA, ingénieurs IA seniors, équipes plateforme pilotant des projets IA en production.",
         "prerequis": "Modules 1, 2 et 3 complets (ou maîtrise équivalente). Expérience de production avec API LLM, Docker, et CI/CD.",
-        "objectifs": "Architecturer des systèmes multi-agents (Agent Teams, sub-agents, patterns hub-and-spoke, orchestration cloud). Sécuriser les applications IA en production (prompt injection, guardrails, sandboxing, RBAC/LLMAC, secrets). Concevoir et déployer des serveurs MCP avancés (Docker, transport SSE/HTTP, MCP Toolkit, app MCP complète). Évaluer et observer ses agents (graders, evals, métriques, monitoring continu) et industrialiser via CI/CD. Maîtriser l'IA locale et la conformité (Ollama, AI Act, RGPD) pour des déploiements souverains."
+        "objectifs": "Architecturer des systèmes multi-agents (Agent Teams, sub-agents, patterns hub-and-spoke, orchestration cloud). Sécuriser les applications IA en production (prompt injection, guardrails, sandboxing, RBAC/LLMAC, secrets). Concevoir et déployer des serveurs MCP avancés (Docker, transport SSE/HTTP, MCP Toolkit, app MCP complète). Évaluer et observer ses agents (graders, evals, métriques, monitoring continu) et industrialiser via CI/CD. Maîtriser l'IA locale et la conformité (Ollama comme référence multi-modèles complémentaire, AI Act, RGPD) pour des déploiements souverains et une stratégie modèles diversifiée."
     }
 ]
