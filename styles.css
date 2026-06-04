@@ -742,9 +742,10 @@ body {
 }
 
 .header .header-description {
-    font-size: 1.8rem;
+     font-size: 2.6rem;
+    font-weight: 700;
     opacity: 0.95;
-    line-height: 1.5;
+    line-height: 1.4;
     color: white;
     max-width: none;
 }
@@ -792,8 +793,8 @@ body {
     }
 
     .header .header-description {
-        font-size: 1.15rem;
-        line-height: 1.4;
+       font-size: 1.6rem;
+        line-height: 1.35;
     }
 
     .cv-btn {
